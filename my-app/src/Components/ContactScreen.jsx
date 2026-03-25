@@ -199,12 +199,13 @@ const ContactScreen = () => {
                 saved
               </p>
             </div>
+
             <Button
               onClick={() => {
                 resetForm();
                 setOpenDialog(true);
               }}
-              className="flex items-center gap-2 bg-violet-600 hover:bg-violet-500 transition-all duration-200 text-white text-sm font-semibold px-5 py-2.5 rounded-xl shadow-lg shadow-violet-900/40 hover:shadow-violet-800/50 hover:-translate-y-0.5 active:translate-y-0"
+             
             >
               <CirclePlus size={16} />
               Add Contact
@@ -212,7 +213,7 @@ const ContactScreen = () => {
           </div>
         </div>
 
-        {/* Search */}
+       
         <div className="relative mb-6">
           <Search
             size={16}
